@@ -1,0 +1,89 @@
+
+.staff-dashboard-page {
+  width: 100%;
+  padding: 20px;
+}
+
+.staff-dashboard-page .school-heading {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.staff-dashboard-page .school-heading h2 {
+  color: #263445;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.staff-dashboard-page .school-heading p {
+  color: #78838f;
+  font-size: 15px;
+}
+
+.staff-dashboard-page .module-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 25px 18px;
+  width: 100%;
+  padding: 15px 5px;
+}
+
+.staff-dashboard-page .module-card {
+  width: 100%;
+  min-width: 0;
+  min-height: 155px;
+  background: transparent;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: 0.25s;
+}
+
+.staff-dashboard-page .module-card svg {
+  width: 62px;
+  height: 62px;
+  color: #168bfa;
+  stroke: #168bfa;
+}
+
+.staff-dashboard-page .module-card p {
+  color: #78838f;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+.staff-dashboard-page .module-card:hover {
+  background: #f2f8ff;
+  transform: translateY(-4px);
+}
+
+.staff-dashboard-page .module-card:focus-visible {
+  outline: 2px solid #168bfa;
+  outline-offset: 4px;
+}
+
+@media (max-width: 1100px) {
+  .staff-dashboard-page .module-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .staff-dashboard-page .module-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 450px) {
+  .staff-dashboard-page .module-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

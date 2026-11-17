@@ -1,0 +1,117 @@
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9eef3;
+  padding: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 450px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.school-logo {
+  width: 95px;
+  height: 95px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.login-card h2 {
+  font-size: 19px;
+  color: #263445;
+}
+
+.login-subtitle {
+  color: #78838f;
+  font-size: 13px;
+}
+
+.login-card h3 {
+  margin-top: 25px;
+  color: #263445;
+}
+
+.login-tabs {
+  display: flex;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.login-tabs button {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #168bfa;
+  background: white;
+  color: #168bfa;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-tabs button.active {
+  background: #4a98f0;
+  color: white;
+}
+
+.login-card form {
+  text-align: left;
+}
+
+.login-card label {
+  display: block;
+  margin: 15px 0 8px;
+  color: #263445;
+  font-weight: 600;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d5dce4;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.forgot-link {
+  text-align: right;
+  margin: 12px 0;
+}
+
+.forgot-link a,
+.signup-text a {
+  color: #168bfa;
+  text-decoration: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  background: #168bfa;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background: #287fd5;
+}
+
+.signup-text {
+  margin-top: 22px;
+}
+.login-error {
+  color: #dc2626;
+  font-size: 13px;
+  margin: 8px 0;
+}

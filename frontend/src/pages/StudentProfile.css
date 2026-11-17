@@ -1,0 +1,79 @@
+
+.student-profile {
+  width: 100%;
+  padding: 20px;
+}
+
+.student-profile h2 {
+  color: #263445;
+  font-size: 27px;
+  margin-bottom: 8px;
+}
+
+.student-profile > p {
+  color: #78838f;
+  margin-bottom: 25px;
+}
+
+.student-profile-card {
+  max-width: 650px;
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 14px;
+  border: 1px solid #e9eef3;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.06);
+}
+
+.student-avatar {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #e8f3ff;
+  color: #168bfa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.student-profile-card h3 {
+  color: #263445;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.student-role {
+  color: #168bfa;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.student-details {
+  border-top: 1px solid #e9eef3;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+.student-details p {
+  color: #78838f;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+.student-details strong {
+  color: #263445;
+  display: inline-block;
+  min-width: 100px;
+}
+
+@media (max-width: 600px) {
+  .student-profile {
+    padding: 12px;
+  }
+
+  .student-profile-card {
+    padding: 22px;
+  }
+}
